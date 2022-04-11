@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fmestilo4.css">
+    <title>Formulario Completo</title>
+    <div>
+        <h1 id="title.text-center">Formulário de Pesquisa freeCodeCamp</h1>
+        <p id="subtitulo">Obrigado por dedicar seu tempo para nos ajudar a melhorar a plataforma</p>
+    </div>
+
+</head>
+
+<body>
+    <div class="box">
+        <form method="post">
+            <legend>Nome:</legend>
+            <label>
+                <input type="text" name="nome" />
+                <br><br>
+            </label>
+
+            <legend>Email</legend>
+            <label></label>
+            <input type="email" id="email" required>
+            <br><br>
+            </label>
+
+            <legend>Idade (Opcional):</legend>
+            <label>
+                <input type="number" />
+            </label>
+            <br>
+            <br>
+            <legend>Qual opção melhor descreve sua função atual?</legend>
+            <select name="funçaoAtual">
+                <option>Selecione a função atual</option>
+                <option>Estudante</option>
+                <option>Trabalho em tempo integral</option>
+                <option>Aprender em tempo integral</option>
+                <option>Prefiro não dizer</option>
+                <option>Outros</option>
+            </select>
+            <p>Você recomendaria o freeCodeCamp a um amigo?</p>
+            <input type="radio" name="recomendacao" checked="checked" />Definitivamente
+            <br>
+            <input type="radio" name="recomendacao" />Pode ser
+            <br>
+            <input type="radio" name="recomendacao" />Não tenho certeza
+            <br>
+
+            <p>Qual é o seu recurso favorito do freeCodeCamp?</p>
+            <select name="favorite">
+                <option>Selecione a opçao</option>
+                <option>Desafios</option>
+                <option>Projetos</option>
+                <option>Comunidade</option>
+                <option>Codigo Aberto</option>
+            </select>
+            <br>
+            <p>O que você gostaria de ver melhorado? (Marque todos os que se aplicam)</p>
+            <input type="checkbox"> Projetos front-end <br>
+            <input type="checkbox"> Projetos de back-end <br>
+            <input type="checkbox"> Visualização de dados <br>
+            <input type="checkbox"> Desafios <br>
+            <input type="checkbox"> Comunidade de código aberto <br>
+            <input type="checkbox"> Salas de ajuda do Gitter <br>
+            <input type="checkbox"> Videos <br>
+            <input type="checkbox"> Encontros da Cidade <br>
+            <input type="checkbox"> Wiki <br>
+            <input type="checkbox"> Forum <br>
+            <input type="checkbox"> Cursos adicionais <br><br>
+            <p>Algum comentário ou sugestão?</p>
+            <textarea name="comentario" style="width: 400px;height: 200px;">Digite seu comentário aqui...</textarea>
+            <br>
+            <br>
+            <input type="submit" value="enviar">
+        </div>
+    </form>
+</body>
+
+</html>

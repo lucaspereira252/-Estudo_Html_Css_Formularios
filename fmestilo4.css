@@ -1,0 +1,46 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+        
+    
+    }
+
+    #title.text-center{
+        color: #F3F3F3;
+        font-size: Poppins,sans-serif 32px;
+        margin: 0px 0px 8px;
+    }
+
+    #subtitulo{
+
+    }
+
+
+    .body{
+        background-image: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+        font-family: "Poppins" , sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.4;
+        color: var(--color-white);
+        margin: 0;
+    }
+    body{
+        display: block;
+    }
+
+    .box{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50px);
+        background-color: rgba(0, 0, 0,0.6);
+        padding: 40px;
+        border-radius: 15px;
+        width: 50%;
+
+
+
+
+    }
